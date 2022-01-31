@@ -10,7 +10,6 @@ function ReactForm() {
   const nameRef = useRef(null);
   const emailRef = useRef(null);
   const passwordRef = useRef(null);
-  const handleSubmit = (e) => {};
 
   const handleReset = () => {
     nameRef.current.value = "";
